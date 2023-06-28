@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "snippets",
+  "info": {
+    "singularName": "snippet",
+    "pluralName": "snippets",
+    "displayName": "Snippet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "code": {
+      "type": "text"
+    },
+    "techStacks": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

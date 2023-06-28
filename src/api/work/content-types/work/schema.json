@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "responsibilities": {
+      "type": "json"
+    },
+    "position": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyPicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "finishDate": {
+      "type": "date"
+    },
+    "isPresent": {
+      "type": "boolean"
+    }
+  }
+}
